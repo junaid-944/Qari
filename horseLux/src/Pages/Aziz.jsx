@@ -3,6 +3,9 @@ import img1 from '../images/Horse Stable.png'
 import img2 from '../images/Contacts.png'
 import img3 from '../images/Schedule.png'
 import img4 from '../images/Combo Chart.png'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import 'react-tabs/style/react-tabs.css';
+
 
 const Aziz = () => {
   return (
@@ -18,14 +21,91 @@ const Aziz = () => {
     </div>
   <div>
     <div className='pt-6 pl-36 space-x-28 font-quicksand  '>
-    <button className=' border rounded-xl px-10 py-1 hover:bg-[#000032] hover:text-white '>Activiy</button>
-    <button className=' border rounded-xl px-10 py-1 hover:bg-[#000032] hover:text-white '>Reminders</button>
-    <button className=' border rounded-xl px-10 py-1 hover:bg-[#000032] hover:text-white '>Details</button>
     
+    <Tabs>
+    <TabList  className='flex gap-x-5'>
+      <Tab>
+      <button className=' border rounded-xl w-44 px-10 py-1 hover:bg-[#000032] hover:text-white '>Activiy</button>
+      </Tab>
+      <Tab>
+    <button className=' border rounded-xl w-44 px-10 py-1 hover:bg-[#000032] hover:text-white '>Reminders</button>
 
+      </Tab>
+      <Tab>
+    <button className=' border rounded-xl w-44 px-10 py-1 hover:bg-[#000032] hover:text-white '>Details</button> 
+
+      </Tab>
+    </TabList >
+
+    <TabPanel>
+      <h2><div className='  w-full pt-8 pr-12 pl-2 pb-4 h-[85%] border-b shadow-orange-50 '>
+      <div className='flex-col pl-2 '>
+        
+        <h1 className=' font-semibold pb-2'>aziz</h1>
+       <div className='flex'> <h2 className=' font-semibold'>Barn Name</h2> <p className=''>: Avallyn Bruce</p></div>
+       <div className='flex'>  <h2 className=' font-semibold'>Paddock Name</h2><p className=''>: Avallyn Bruce</p></div>
+       <div className='flex'>  <h2 className=' font-semibold'>Paddock Location</h2><p className=''>: The highland stable</p></div>
+       <div className='flex pb-2'>  <h2 className=' font-semibold'>Paddock Notes</h2><p className=''>: The exact location of highland stable</p></div>
+       <hr />
+
+       <h1 className=' font-semibold pt-2 '>STALL INFORMATION</h1>
+       <div className='flex pb-2'> <h2 className=' font-semibold'>Stall #</h2> <p className=''>: 24</p></div>
+       <hr />
+
+       <h1 className=' font-semibold  pt-2 '>IMPORTANT DATES</h1>
+       <div className='flex'> <h2 className=' font-semibold'>Coggins Renewal Dates</h2> <p className=''>: 25-Jun-2024</p></div>
+       <div className='flex pb-2'>  <h2 className=' font-semibold'>Last Coggins Dates</h2><p className=''>: 26-Jun-2023</p></div>
+       <hr />
+
+       <h1 className=' font-semibold  pt-2 '>FEED AM SHCEDULE</h1>
+       <div className='flex'> <h2 className=' font-semibold'>alfalfa cubes</h2> <p className=''>: 2 1/4 flakes</p></div>
+       <div className='flex'>  <h2 className=' font-semibold'>Smartpak</h2><p className=''></p></div>
+       
+       <h1 className=' font-semibold  pt-2 '>LUNCH SHEDULE</h1>
+       <div className='flex'> <h2 className=' font-semibold'>alfalfa cubes</h2> <p className=''>: 2 1/4 flakes</p></div>
+       <div className='flex pb-2'>  <h2 className=' font-semibold'>Smartpak</h2><p className=''></p></div>
+       <hr />
+
+      </div>
+    </div></h2>
+    </TabPanel>
+    <TabPanel>
+      <h2>
+      <div className='  w-full pt-8 pr-12 pl-2 pb-4 h-[85%] border-b shadow-orange-50 '>
+      <div className='flex-col pl-2 '>
+        
+        <h1 className=' font-semibold pb-2'>zahid</h1>
+       <div className='flex'> <h2 className=' font-semibold'>Barn Name</h2> <p className=''>: Avallyn Bruce</p></div>
+       <div className='flex'>  <h2 className=' font-semibold'>Paddock Name</h2><p className=''>: Avallyn Bruce</p></div>
+       <div className='flex'>  <h2 className=' font-semibold'>Paddock Location</h2><p className=''>: The highland stable</p></div>
+       <div className='flex pb-2'>  <h2 className=' font-semibold'>Paddock Notes</h2><p className=''>: The exact location of highland stable</p></div>
+       <hr />
+
+       <h1 className=' font-semibold pt-2 '>STALL INFORMATION</h1>
+       <div className='flex pb-2'> <h2 className=' font-semibold'>Stall #</h2> <p className=''>: 24</p></div>
+       <hr />
+
+       <h1 className=' font-semibold  pt-2 '>IMPORTANT DATES</h1>
+       <div className='flex'> <h2 className=' font-semibold'>Coggins Renewal Dates</h2> <p className=''>: 25-Jun-2024</p></div>
+       <div className='flex pb-2'>  <h2 className=' font-semibold'>Last Coggins Dates</h2><p className=''>: 26-Jun-2023</p></div>
+       <hr />
+
+       <h1 className=' font-semibold  pt-2 '>FEED AM SHCEDULE</h1>
+       <div className='flex'> <h2 className=' font-semibold'>alfalfa cubes</h2> <p className=''>: 2 1/4 flakes</p></div>
+       <div className='flex'>  <h2 className=' font-semibold'>Smartpak</h2><p className=''></p></div>
+       
+       <h1 className=' font-semibold  pt-2 '>LUNCH SHEDULE</h1>
+       <div className='flex'> <h2 className=' font-semibold'>alfalfa cubes</h2> <p className=''>: 2 1/4 flakes</p></div>
+       <div className='flex pb-2'>  <h2 className=' font-semibold'>Smartpak</h2><p className=''></p></div>
+       <hr />
+
+      </div>
     </div>
+      </h2>
+    </TabPanel>
+    <TabPanel>
     <div className='  w-full pt-8 pr-12 pl-2 pb-4 h-[85%] border-b shadow-orange-50 '>
-      <div className='flex-col pl-52 '>
+      <div className='flex-col pl-2 '>
         
         <h1 className=' font-semibold pb-2'>INFORMATION</h1>
        <div className='flex'> <h2 className=' font-semibold'>Barn Name</h2> <p className=''>: Avallyn Bruce</p></div>
@@ -53,7 +133,13 @@ const Aziz = () => {
        <hr />
 
       </div>
+    </div>    </TabPanel>
+  </Tabs>
+
+    
+
     </div>
+    
     
    </div>
     </div>
