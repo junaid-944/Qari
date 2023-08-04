@@ -66,7 +66,8 @@ const Asad = () => {
         <div>
         <button className=" text-white w-[382px] h-[53px] top-[731px] left-[316px] rounded-full mt-5 bg-[#000032]"> Next </button>
         </div>
-       </div>
+       </div>  
+
       
     </>
   );
