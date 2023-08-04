@@ -5,6 +5,7 @@ import './App.css'
 import Home from './Pages/Home'
 // import QariCard from './Pages/QariCard'
 import Card from './Pages/Card'
+import Aziz from './Pages/Aziz'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
     {/* <Home/> */}
      <Card/>
+     <Aziz/>
     </>
   )
 }
