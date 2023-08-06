@@ -23,7 +23,7 @@ const SignUp = () => {
               type="text"
               id="name"
               placeholder="Adam Smith"
-              className="px-4 rounded-full w-[380px] h-[48px]"
+              className="text-black px-4 rounded-full w-[380px] h-[48px]"
             />
           </div>
           <div className="flex flex-col">
@@ -34,7 +34,7 @@ const SignUp = () => {
               type="password"
               id="password"
               placeholder="*****************"
-              className="px-4 rounded-full w-[380px] h-[48px]"
+              className="text-black px-4 rounded-full w-[380px] h-[48px]"
             />
           </div>
         </div>
@@ -45,7 +45,7 @@ const SignUp = () => {
               type="text"
               id="email"
               placeholder="Adammith@gmail.com"
-              className="px-4 rounded-full w-[380px] h-[48px]"
+              className="text-black px-4 rounded-full w-[380px] h-[48px]"
             />
           </div>
           <div className="flex flex-col">
@@ -56,17 +56,17 @@ const SignUp = () => {
               type="password"
               id="confirmPassword"
               placeholder="*****************"
-              className="px-4 rounded-full w-[380px] h-[48px] "
+              className="text-black px-4 rounded-full w-[380px] h-[48px] "
             />
           </div>
         </div>
-        <div className="flex flex-col px-12 pt-4">
+        <div className="text-black flex flex-col px-12 pt-4">
           <label htmlFor="phoneNumber">Phone Number</label>
           <input
             type="text"
             id="phoneNumber"
             placeholder="+44 987987991"
-            className="px-4 rounded-full w-[380px] h-[48px]"
+            className="text-black px-4 rounded-full w-[380px] h-[48px]"
           />
         </div>
 
