@@ -60,7 +60,7 @@ const SignUp = () => {
             />
           </div>
         </div>
-        <div className="text-black flex flex-col px-12 pt-4">
+        <div className=" flex flex-col px-12 pt-4">
           <label htmlFor="phoneNumber">Phone Number</label>
           <input
             type="text"
@@ -71,11 +71,11 @@ const SignUp = () => {
         </div>
 
         <div className="pt-8 px-52">
-          <button className="bg-gradient-to-r from-yellow-600 via-yellow-300 to-yellow-700 w-[380px] h-[55px] rounded-3xl">
+          <button className="text-black font-bold bg-gradient-to-r from-yellow-600 via-yellow-300 to-yellow-700 w-[380px] h-[55px] rounded-3xl">
             Sign up
           </button>
-          <p className="px-32 pt-2">or continue with</p>
-          <div className="flex gap-8 px-16 pt-2 ">
+          <p className=" px-32 pt-2">or continue with</p>
+          <div className="font-bold flex gap-8 px-16 pt-2 ">
             <img src={pic} alt="Facebook" />
             <p className="">Facebook</p>
             <img src={pic1} alt="Google" />
