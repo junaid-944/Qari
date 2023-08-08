@@ -8,6 +8,7 @@ import SignUp from './Pages/SignUp'
 import Card from './Pages/Card'
 import Aziz from './Pages/Aziz'
 import Dewarming from './Pages/Dewarming'
+import Coggins from './Pages/Coggins'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,8 @@ function App() {
      {/* <Card/> */}
      {/* <Aziz/> */}
      {/* <SignUp/> */}
-     <Dewarming/>
+     {/* <Dewarming/> */}
+     <Coggins/>
     </>
   )
 }
