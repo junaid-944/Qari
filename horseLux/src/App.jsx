@@ -7,6 +7,7 @@ import SignUp from './Pages/SignUp'
 // import QariCard from './Pages/QariCard'
 import Card from './Pages/Card'
 import Aziz from './Pages/Aziz'
+import Dewarming from './Pages/Dewarming'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
     {/* <Home/> */}
      {/* <Card/> */}
      {/* <Aziz/> */}
-     <SignUp/>
+     {/* <SignUp/> */}
+     <Dewarming/>
     </>
   )
 }
