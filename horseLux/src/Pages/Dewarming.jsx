@@ -1,17 +1,25 @@
 import React from 'react'
-import horse from '../images/horse1.png'
+import horse from '../images/horse1.png' 
+import { FaBeer } from 'react-icons/fa';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+import { ImBin } from 'react-icons/im'
 
 const Dewarming = () => {
   return (
     <div className=' bg-[#b8afaf] w-[759px] h-[558px] absolute left-[403px] mt-4 rounded-3xl'>
-    <div className='flex justify-center font-bold'>
-      <h1 className='font-[Quicksand]'>Dewarming</h1>
+   <div>
+   
+   </div>
+    <div className='flex justify-between  mt-5'>
+     <AiOutlineArrowLeft/>
+      <h1 className='font-[Quicksand] font-semibold '>DEWARMING</h1>
+      <ImBin/>
       </div>
       <hr></hr>
       <form className='grid grid-cols-2'>
       
       <div className='flex flex-col px-6 w-1/2 gap-4'>
-      <h1 className='font-bold'>Details</h1>
+      <h1 className='font-semibold font-[Quicksand] pt-4'>DETAILS</h1>
       <div className='flex flex-col'><label>Date</label>
       <input type='date'className='w-[305px] h-[48px] rounded-md'></input>
       </div>
